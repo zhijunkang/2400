@@ -1,0 +1,3 @@
+
+同步数据库物品属性:{"goodsid":763,"goodsname":"七阶坐骑卡","skin":"250","type":717,"quality":1,"value":"700","instruction":"七阶坐骑召唤卡，使用后可召唤出对应职业的坐骑。","status":0,"usetime":424361,"rgid":328000,"role_id":11,"goodlock":0}:999
+同步数据库物品属性:{"goodsid":890,"goodsname":"十亿两银票","skin":"8","type":100,"quality":1,"value":"钱\u003d1000000000","instruction":"银票虽好，也要换成钱才安心，使用获得十亿金钱。","status":0,"usetime":663325,"rgid":330000,"role_id":11,"goodlock":0}:999

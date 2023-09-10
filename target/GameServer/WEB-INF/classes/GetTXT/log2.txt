@@ -1,0 +1,9 @@
+
+同步数据库物品属性:{"goodsid":185,"goodsname":"人参果王","skin":"204","type":2041,"quality":0,"value":"经验\u003d1800000","instruction":"传说中吃下后可延年益寿、健体养颜的鲜果！此果更是果中之王，可增加大量经验。","status":0,"usetime":201441,"rgid":813000,"role_id":26,"goodlock":0}:999
+同步数据库物品属性:{"goodsid":306,"goodsname":"千年寒铁","skin":"305","type":500,"quality":0,"value":"等级\u003d6","instruction":"千年寒铁，任何东西接近都会被冻伤。","status":0,"usetime":405371,"rgid":846000,"role_id":26,"goodlock":0}:999
+同步数据库物品属性:{"goodsid":201,"goodsname":"白银通宝","skin":"207","type":100,"quality":0,"value":"钱\u003d300000","instruction":"白银制造的货币通宝使用后可得到200000金钱","status":0,"usetime":144381,"rgid":775000,"role_id":23,"goodlock":0}:999
+同步数据库物品属性:{"goodsid":81365,"goodsname":"仙玉充值卡","skin":"236","type":888,"quality":0,"value":"点\u003d10","instruction":"仙玉充值卡，使用可获得对应的仙玉，可在商城购买道具。","status":0,"usetime":976318,"rgid":842000,"role_id":24,"goodlock":0}:999
+同步数据库物品属性:{"goodsid":91742,"goodsname":"充值积分","skin":"236","type":935,"quality":1,"value":"充值\u003d100","instruction":"使用后获得充值积分以及累计充值，真实有效","status":0,"usetime":924313,"rgid":21000,"role_id":2,"goodlock":0}:999
+同步数据库物品属性:{"goodsid":185,"goodsname":"人参果王","skin":"204","type":2041,"quality":0,"value":"经验\u003d1800000","instruction":"传说中吃下后可延年益寿、健体养颜的鲜果！此果更是果中之王，可增加大量经验。","status":0,"usetime":390413,"rgid":751000,"role_id":23,"goodlock":0}:999
+同步数据库物品属性:{"goodsid":750332,"goodsname":"测试步云履","skin":"6115","type":6900,"quality":0,"value":"速度\u003d3500","instruction":"","status":0,"usetime":324316,"rgid":141000,"role_id":2,"goodlock":0}:999
+同步数据库物品属性:{"goodsid":91741,"goodsname":"测试武器","skin":"9764","type":800,"quality":1,"value":"风法伤害\u003d20000|火法伤害\u003d50000|鬼火伤害\u003d50000|忽视人法\u003d100|忽视抗震慑\u003d100|忽视仙法\u003d500|忽视鬼火\u003d500|命中率\u003d100|狂暴率\u003d100|攻击+400000|敏捷\u003d1000|根骨\u003d1000|灵性\u003d1000|力量\u003d1000","instruction":"测试装备。","status":0,"usetime":924313,"rgid":20000,"role_id":2,"goodlock":0,"qhv":8,"qht":8}:999

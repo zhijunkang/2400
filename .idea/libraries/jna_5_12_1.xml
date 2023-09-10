@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="jna-5.12.1">
+    <CLASSES>
+      <root url="jar://C:/Program Files/Java/jna-5.12.1.jar!/" />
+      <root url="jar://C:/Program Files/Java/jna-platform-5.12.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

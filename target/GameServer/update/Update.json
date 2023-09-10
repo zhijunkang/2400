@@ -1,0 +1,5 @@
+{
+	"commands":[
+		"cp %p%S65.png %s%inkImg/background/S65.png",
+	]
+}

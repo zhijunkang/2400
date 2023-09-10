@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.come.mapper.AgentMapper">
+    <insert id="addAgent" parameterType="org.come.agent.Agent">
+
+        INSERT INTO "AGENT"("agentId", "userName", "password", "qid", "tel", "createTime","jurisdiction","xianyu","jf")
+        VALUES (#{userName},#{userName},#{password},#{qid},#{tel},#{createTime},#{jurisdiction},#{xianyu},#{jf})
+    </insert>
+    <update id="upAgentPwd">
+        UPDATE "AGENT" SET "password" = #{password} WHERE "agentId" = #{agentId}
+    </update>
+
+    <update id="upAgent">
+        UPDATE "AGENT"
+        <set >
+            <if test="password != null" >
+                "password" = #{password},
+            </if>
+
+            <if test="jurisdiction != null" >
+                "jurisdiction" = #{jurisdiction}
+            </if>
+            <if test="xianyu != null" >
+                "xianyu" = #{xianyu},
+            </if>
+
+            <if test="jf != null" >
+                "jf" = #{jf}
+            </if>
+
+        </set>
+        WHERE "agentId" = #{agentId}
+    </update>
+    <update id="upAgentXyAndJf">
+        UPDATE "AGENT"
+        <set >
+            <if test="xianyu != null" >
+                "xianyu" = #{xianyu},
+            </if>
+
+            <if test="jf != null" >
+                "jf" = #{jf}
+            </if>
+
+        </set>
+        WHERE "userName" = #{userName}
+
+    </update>
+    <delete id="deleteById">
+        delete
+        from agent
+        WHERE "agentId" = #{id}
+    </delete>
+
+
+    <select id="selectAll" resultType="org.come.agent.Agent">
+        select *
+        from agent
+    </select>
+    <select id="selectById" resultType="org.come.agent.Agent">
+        select *
+        from agent
+        where agentId = #{id}
+    </select>
+    <select id="selectByUserName" resultType="org.come.agent.Agent">
+        select *
+        from agent
+        where "userName" = #{userName}
+    </select>
+
+    <select id="agemntMaxId" resultType="int">
+        select max("agentId") from AGENT
+    </select>
+
+</mapper>
